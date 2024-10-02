@@ -71,17 +71,6 @@ header > a:hover {
   margin-bottom: 22px;
 }
 
-.search-section-logo > input:hover,
-.search-section-logo > .search-buttons > button:hover {
-  -webkit-box-shadow: 0px 1px 5px 1px rgba(222, 219, 222, 1);
-  -moz-box-shadow: 0px 1px 5px 1px rgba(222, 219, 222, 1);
-  box-shadow: 0px 1px 5px 1px rgba(222, 219, 222, 1);
-}
-
-.search-section-logo > input:focus {
-  outline: none;
-}
-
 .search-section-logo > .search-buttons {
   display: flex;
   gap: 18px;
@@ -96,6 +85,21 @@ header > a:hover {
 .search-section-logo > p > a {
   text-decoration: none;
   color: #1a0dab;
+}
+
+.search-section-logo > input:hover,
+.search-section-logo > .search-buttons > button:hover {
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(222, 219, 222, 1);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(222, 219, 222, 1);
+  box-shadow: 0px 1px 5px 1px rgba(222, 219, 222, 1);
+}
+
+.search-section-logo > input:focus {
+  outline: none;
+}
+
+.search-section-logo > p > a:hover {
+  text-decoration: underline;
 }
 
 .search-section-logo > .search-buttons > button {
@@ -144,6 +148,12 @@ footer .footer-links-container .footer-links-info,
 footer .footer-links-container .footer-links-privacy {
   gap: 28px;
   padding: 38px;
+}
+
+footer .footer-links-container .footer-links-info li:hover,
+footer .footer-links-container .footer-links-privacy li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 footer .footer-links ul {
